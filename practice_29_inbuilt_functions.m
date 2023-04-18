@@ -1,0 +1,13 @@
+A=[1 2 0; 0 0 2; 2 3 4]
+nnz(A)
+nnz(~A)
+A(6)
+A(3,2)
+find(A)
+find(~A)
+find(A==2)
+nnz(A==2)
+B=reshape(A,[1,9])
+sort(B)
+fliplr(B)
+diff(B)
